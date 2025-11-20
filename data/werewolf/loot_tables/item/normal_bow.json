@@ -37,7 +37,8 @@
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:vanishing_curse": 1
+                    "minecraft:vanishing_curse": 1,
+                    "minecraft:power": 4
                   },
                   "show_in_tooltip": false
                 },
