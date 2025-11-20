@@ -6,6 +6,7 @@ execute as @a[tag=team_kyoujin] unless items entity @s hotbar.8 *[minecraft:cust
 execute if data storage werewolf: gamestate.time{id:"trial"} run return fail
 
 ## スキル処理(時間により分岐)
-
+execute if data storage werewolf: gamestate.time{id:"first_day"} run function werewolf:role/kyoujin/playing/first_day
+execute unless data storage werewolf: gamestate.time{id:"first_day"} run function werewolf:role/kyoujin/playing/second_day_onwards
 
 ## スキルモード切り替え
