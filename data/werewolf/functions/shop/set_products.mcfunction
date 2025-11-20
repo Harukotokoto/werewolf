@@ -60,6 +60,11 @@ $execute as @e[type=wandering_trader,tag=shop] unless data storage werewolf: set
     buy:{id:"minecraft:emerald",count:$(heal_wand)b},\
     sell:{components:{"minecraft:custom_data":{Tags:["wand","heal"],count:10},"minecraft:custom_model_data":1103,"minecraft:custom_name":'{"color":"white","italic":false,"text":"回復の杖[10]"}',"minecraft:hide_additional_tooltip":{},"minecraft:lore":['{"color":"gray","italic":false,"text":"[アイテム説明]"}','{"color":"gray","italic":false,"text":"魔力が込められた杖"}','{"color":"gray","italic":false,"text":"直撃すると回復する魔法弾を放つ"}','{"color":"gray","extra":[{"color":"white","text":""}],"italic":false,"text":"‣ Recovery:"}'],"minecraft:max_damage":100,"minecraft:enchantment_glint_override":0b,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1},show_in_tooltip:0b}},count:1,id:"minecraft:carrot_on_a_stick"}\
 }
+#氷の剣
+execute as @e[type=wandering_trader,tag=shop] run data modify entity @s[tag=shop_1] Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,xp:0,\
+    buy:{id:"minecraft:diamond",count:5b},\
+    sell:{components:{"minecraft:attribute_modifiers":{modifiers:[{amount:999.0d,name:"generic.attack_damage",operation:"add_value",type:"minecraft:generic.attack_damage",uuid:[I;486475636,-652544697,-872636307,-877740317]}],show_in_tooltip:0b},"minecraft:custom_data":{Tags:["ice_sword","quest"]},"minecraft:custom_model_data":1000,"minecraft:custom_name":'{"color":"white","italic":false,"text":"氷の剣"}',"minecraft:enchantment_glint_override":0b,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1},show_in_tooltip:0b},"minecraft:lore":['{"color":"gray","italic":false,"text":"[アイテム説明]"}','{"color":"gray","italic":false,"text":"すさまじい攻撃力を誇る氷剣"}','{"color":"gray","italic":false,"text":"使用または所有者の死亡で砕け散ってしまう"}','{"color":"gray","extra":[{"color":"white","text":""}],"italic":false,"text":"‣ Attack:"}']},count:1,id:"minecraft:wooden_sword"}\
+}
 
 #予備の頑丈な斧
 execute as @e[type=wandering_trader,tag=shop] run data modify entity @s[tag=shop_1] Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,xp:0,\
