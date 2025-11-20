@@ -1,3 +1,3 @@
 ##報酬
-give @s emerald 5
+give @s emerald 6
 
