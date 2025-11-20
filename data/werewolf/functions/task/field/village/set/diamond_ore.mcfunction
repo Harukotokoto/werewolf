@@ -2,7 +2,6 @@
 
 ##タスクの抽選漏れ
 execute as @s[tag=!active_task] run setblock ~ ~ ~ stone
-execute as @s[tag=!active_task] align xyz run summon minecraft:item_display ~0.5 ~0.5 ~0.5 {item:{id:"minecraft:stone",Count:1b},Tags:["dummy_task"]}
 
 ##タスク場所
 #タスク場所にタスクを設置
