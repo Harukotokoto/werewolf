@@ -1,0 +1,1 @@
+execute as @s at @s run playsound minecraft:open_book master @s

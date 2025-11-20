@@ -1,0 +1,1 @@
+$title @s actionbar [{"selector":"@a[scores={ID=$(reserve_0)}]"},{"text":"を切り裂く (右クリック)"}]

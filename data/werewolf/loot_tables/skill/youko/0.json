@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "妖狐スキル - 傀儡",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[スキル説明]",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "-昼のみ使用可能-",
+                      "color": "dark_red",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "眼前のプレイヤーを背徳者にすることができる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ※他陣営にスキルエフェクト/音は認識されない",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"skill\",\"0\",\"no_drop\"]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 22,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:vanishing_curse": 0
+                  },
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

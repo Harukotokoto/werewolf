@@ -1,0 +1,1 @@
+function werewolf:system/set_player/0 with storage werewolf: settings

@@ -1,0 +1,1 @@
+give @s emerald 1

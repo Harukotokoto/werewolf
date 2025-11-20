@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 0.001,
+            "max": 0.01
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "werewolf:skill",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "team": "nekomata"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:role/nekomata/skill/main_0"
+  }
+}

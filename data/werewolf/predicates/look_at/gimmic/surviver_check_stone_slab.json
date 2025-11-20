@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "looking_at": {
+        "type": "minecraft:interaction",
+        "nbt": "{Tags:[\"surviver_check_stone_slab\"]}",
+        "distance": {
+          "absolute": {
+            "min": 0,
+            "max": 3
+          }
+        }
+      }
+    }
+  }
+}

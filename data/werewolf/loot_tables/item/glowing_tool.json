@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "発光ツール(右クリックで使用)",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "全員が10秒間光り輝く",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "一度使うと消滅する",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"glowing_tool\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1004
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:vanishing_curse": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

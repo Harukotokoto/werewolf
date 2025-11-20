@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "就職案内書[村人専用](右クリックで使用)",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "自身が村人の場合、選択された",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "村役職の1つにランダムで転職する",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "一度使うと消滅する",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"job_change_villager\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1005
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:vanishing_curse": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

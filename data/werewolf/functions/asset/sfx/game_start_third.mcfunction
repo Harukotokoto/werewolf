@@ -1,0 +1,1 @@
+execute as @s at @s run playsound minecraft:game_start_third master @s

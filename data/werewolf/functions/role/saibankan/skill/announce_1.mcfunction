@@ -1,0 +1,1 @@
+$title @s actionbar [{"selector":"@a[scores={ID=$(reserve_0)}]"},{"text":"を後任に指名する (右クリック)"}]

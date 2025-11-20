@@ -1,0 +1,1 @@
+$title @s actionbar [{"selector":"@a[scores={ID=$(reserve_0)}]"},{"text":"の命を吹き消す (右クリック)"}]

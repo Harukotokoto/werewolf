@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "頑丈な斧",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "いくら使っても壊れる気配のない斧",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "攻撃するためのものではない",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "‣ 採集可能: ",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "",
+                      "color": "white"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "uuid": [
+                        386475636,
+                        -602544697,
+                        -872632307,
+                        -878740317
+                      ],
+                      "name": "generic.attack_damage",
+                      "amount": 0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:vanishing_curse": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

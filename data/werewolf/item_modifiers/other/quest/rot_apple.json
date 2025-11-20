@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 1
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "腐ったリンゴ",
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Tags:[\"rot_apple\",\"quest\"]}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "[アイテム説明]",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "腐ってしまったリンゴ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "食べるとお腹を壊すことがある",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "‣ Food:",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "text": "",
+            "color": "white"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

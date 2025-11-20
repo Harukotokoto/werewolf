@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:can_break": {
+        "predicates": [
+          {
+            "blocks": "minecraft:iron_ore"
+          }
+        ],
+        "show_in_tooltip": false
+      }
+    }
+  }
+]

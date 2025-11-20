@@ -1,0 +1,1 @@
+execute as @s at @s run playsound minecraft:quest_start master @s

@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.8": {
+        "items": "minecraft:carrot_on_a_stick",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"skill\"]}"
+        }
+      }
+    }
+  }
+}

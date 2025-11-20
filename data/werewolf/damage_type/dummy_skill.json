@@ -1,0 +1,6 @@
+{
+  "death_message_type": "default",
+  "exhaustion": 0.0,
+  "message_id": "dummy_skill",
+  "scaling": "never"
+}

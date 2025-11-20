@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{Tags:[\"quest_salmon\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:quest/falling_salmon/eat"
+  }
+}

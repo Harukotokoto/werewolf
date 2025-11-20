@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "player.cursor": {
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_ui\"]}"
+        }
+      }
+    }
+  }
+}

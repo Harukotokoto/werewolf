@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#GameManager"
+      },
+      "score": "reserve_0",
+      "scale": 0.001
+    }
+  }
+]

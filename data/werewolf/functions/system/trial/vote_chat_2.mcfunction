@@ -1,0 +1,2 @@
+## 投票チャット
+$tellraw @a[tag=player] [{"selector":"@a[scores={ID=$(reserve_0)}]"},{"text":" "},{"text":" <投票する> ","color":"red","clickEvent":{"action":"run_command","value":"/function werewolf:system/trial/vote {ID:$(reserve_0)}"}}]

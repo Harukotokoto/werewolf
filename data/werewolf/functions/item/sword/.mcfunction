@@ -1,0 +1,4 @@
+##剣の持ち替え
+execute as @a[scores={swords_cooltime=1..}] run scoreboard players remove @s swords_cooltime 1
+execute as @a[scores={swords_cooltime=0}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["normal_sword"]}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["cooltime"]}] run item modify entity @s weapon.mainhand werewolf:set_custom_data/sword/normal_sword
+execute as @a[scores={swords_cooltime=0}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["strong_sword"]}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["cooltime"]}] run item modify entity @s weapon.mainhand werewolf:set_custom_data/sword/strong_sword

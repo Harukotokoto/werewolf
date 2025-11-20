@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "ジャガイモ",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "よくあるジャガイモ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "食糧不足の時に重宝される",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "‣ Food:",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "",
+                      "color": "white"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

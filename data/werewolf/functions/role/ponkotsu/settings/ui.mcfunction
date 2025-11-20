@@ -1,0 +1,3 @@
+# 処理を記述
+execute if data storage werewolf: role.ponkotsu{dummy_wolf:true} run data modify storage werewolf: settings.text append value '[{"text":"　 [ポンコツ] ダミー役職: "},{"text":"人狼役職入り","color":"red"},{"text":" (転移の炎が封印)"}]'
+execute if data storage werewolf: role.ponkotsu{dummy_wolf:false} run data modify storage werewolf: settings.text append value '[{"text":"　 [ポンコツ] ダミー役職: "},{"text":"人狼役職抜き","color":"green"}]'

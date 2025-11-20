@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "新鮮なリンゴ",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "みずみずしい採れたてのリンゴ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "収穫時期を過ぎると腐ってしまう",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "‣ Food:",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "",
+                      "color": "white"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 0
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"fresh_apple\",\"quest\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+function werewolf:system/tp/start_point/everyone/0 with storage werewolf: settings

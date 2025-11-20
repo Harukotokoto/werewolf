@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "炎の杖[20]",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "魔力が込められた杖",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "着弾地点で爆発する魔法弾を放つ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "‣ Attack:",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "",
+                      "color": "white"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 1100,
+            "minecraft:max_damage": 100,
+            "minecraft:damage": 0,
+            "minecraft:hide_additional_tooltip": {}
+          }
+        },
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{Tags:[\"wand\",\"fire\"],count:20}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+##5ブロック先までの視線上のIDを取得(output macro:reserve_0)
+
+## 距離のスコアボードをリセット
+scoreboard players reset @s reserve_0
+## storageをリセット
+data remove storage macro: reserve_0
+
+## 実行者を記録
+tag @s add executor
+
+## 視線検知
+execute as @s at @s anchored eyes positioned ^ ^ ^ run function werewolf:.util/eye_detection/player/0
+
+## 検知されたエンティティが実行
+execute as @a[tag=this,sort=nearest,limit=1] store result storage macro: reserve_0 int 1 run scoreboard players get @s ID
+
+## おかたづけ
+tag @a remove executor
+tag @a remove this

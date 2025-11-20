@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_sword"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{Tags:[\"ice_sword\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:quest/ancient_hidden_room/break"
+  }
+}

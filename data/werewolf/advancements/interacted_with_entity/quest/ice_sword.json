@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ice_sword\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:quest/ancient_hidden_room/give"
+  }
+}

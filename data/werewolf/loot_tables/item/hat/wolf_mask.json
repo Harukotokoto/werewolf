@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "オオカミのマスク",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "狼陣営で勝利した証",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "右クリックで頭に装備することができる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"hat\",\"reward\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

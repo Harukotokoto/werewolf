@@ -1,0 +1,3 @@
+# 処理を記述
+execute if data storage werewolf: role.ojousama.skill_0{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　 [お嬢様]   最大回数: "},{"text":"∞ 回 / 回復日数: "},{"nbt":"role.ojousama.skill_0.cooltime","storage":"werewolf:"},{"text":" 日"}]'
+execute unless data storage werewolf: role.ojousama.skill_0{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　 [お嬢様]   最大回数: "},{"nbt":"role.ojousama.skill_0.limit","storage":"werewolf:"},{"text":" 回 / 回復日数: "},{"nbt":"role.ojousama.skill_0.cooltime","storage":"werewolf:"},{"text":" 日"}]'

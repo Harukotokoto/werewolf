@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "水晶の欠片",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "とある水晶が砕けたもの",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "通貨としても使用できる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"quest\",\"crystal\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

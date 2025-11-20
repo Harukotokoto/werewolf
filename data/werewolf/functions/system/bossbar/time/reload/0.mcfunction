@@ -1,0 +1,1 @@
+$data modify storage werewolf: gamestate.day_count.text set value {"text":"[$(reserve_0)日目]","color":"white"}

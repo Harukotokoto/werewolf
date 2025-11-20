@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_sword",
+          "predicates": {
+            "minecraft:custom_data": "{Tags:[\"ice_sword\",\"quest\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:quest/maido_ookini/remove_offer"
+  }
+}

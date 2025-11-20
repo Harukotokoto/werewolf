@@ -1,0 +1,3 @@
+# 処理を記述
+execute if data storage werewolf: role.cupid.skill_2{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　 [ｷｭｰﾋﾟｯﾄ]  回復時間: "},{"nbt":"role.cupid.skill_2.cooltime_second","storage":"werewolf:"},{"text":" 秒"}]'
+execute unless data storage werewolf: role.cupid.skill_2{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　 [ｷｭｰﾋﾟｯﾄ]  回復時間: "},{"nbt":"role.cupid.skill_2.cooltime_second","storage":"werewolf:"},{"text":" 秒"}]'

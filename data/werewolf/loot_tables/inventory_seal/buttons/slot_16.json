@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "使用不可",
+                "color": "white",
+                "font": "minecraft:default",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 6
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"inventory_seal\"],Slot:16}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

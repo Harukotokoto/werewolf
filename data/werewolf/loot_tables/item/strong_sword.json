@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "良い剣",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "多くの者が愛用する鋭い剣",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "壊れることはない",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "‣ Attack:",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "",
+                      "color": "white"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:vanishing_curse": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"strong_sword\",\"active\",\"weapon\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1001
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

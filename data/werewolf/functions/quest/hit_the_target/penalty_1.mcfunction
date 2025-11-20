@@ -1,0 +1,6 @@
+## penalty
+execute store result score #GameManager reserve_0 run random value 0..10
+
+execute if score #GameManager reserve_0 matches ..6 run summon skeleton ~ ~ ~ {Tags:["penalty","quest"],CustomNameVisible:1b,DeathLootTable:"werewolf:death_loot_table/quest/emerald_1_4",Health:3f,CustomName:'{"text":"スケルトン Lv.1","font":"custom_name"}',Attributes:[{Name:generic.attack_damage,Base:1}],ArmorItems:[{id:stone,components:{enchantments:{levels:{fire_protection:7}}}}],ArmorDropChances:[0f,0f,0f,0f]}
+execute if score #GameManager reserve_0 matches 7..8 run summon skeleton ~ ~ ~ {Tags:["penalty","quest"],CustomNameVisible:1b,DeathLootTable:"werewolf:death_loot_table/quest/emerald_1_3",Health:4f,CustomName:'{"text":"スケルトン Lv.2","font":"custom_name"}',Attributes:[{Name:generic.attack_damage,Base:1.5}],ArmorItems:[{id:stone,components:{enchantments:{levels:{fire_protection:7}}}}],ArmorDropChances:[0f,0f,0f,0f]}
+execute if score #GameManager reserve_0 matches 9 run summon skeleton ~ ~ ~ {Tags:["penalty","quest"],CustomNameVisible:1b,DeathLootTable:"werewolf:death_loot_table/quest/emerald_1_2",Health:6f,CustomName:'{"text":"スケルトン Lv.3","font":"custom_name"}',Attributes:[{Name:generic.attack_damage,Base:2}],ArmorItems:[{id:stone,components:{enchantments:{levels:{fire_protection:7}}}}],ArmorDropChances:[0f,0f,0f,0f]}

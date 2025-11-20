@@ -1,0 +1,170 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.9": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.10": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.11": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.12": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.13": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.14": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.15": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.16": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.17": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.18": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.19": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.20": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.21": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.22": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.23": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.24": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.25": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.26": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.27": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.28": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.29": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.30": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.31": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.32": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.33": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.34": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      },
+      "container.35": {
+        "items": "minecraft:barrier",
+        "predicates": {
+          "minecraft:custom_data": "{Tags:[\"inventory_seal\"]}"
+        }
+      }
+    }
+  }
+}

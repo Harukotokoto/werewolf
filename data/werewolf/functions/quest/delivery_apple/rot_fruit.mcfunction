@@ -1,0 +1,9 @@
+execute as @a if items entity @s hotbar.0 minecraft:apple run item modify entity @s hotbar.0 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.1 minecraft:apple run item modify entity @s hotbar.1 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.2 minecraft:apple run item modify entity @s hotbar.2 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.3 minecraft:apple run item modify entity @s hotbar.3 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.4 minecraft:apple run item modify entity @s hotbar.4 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.5 minecraft:apple run item modify entity @s hotbar.5 werewolf:other/quest/rot_apple
+execute as @a if items entity @s hotbar.6 minecraft:apple run item modify entity @s hotbar.6 werewolf:other/quest/rot_apple
+execute as @a if items entity @s weapon.offhand minecraft:apple run item modify entity @s weapon.offhand werewolf:other/quest/rot_apple
+execute as @a if items entity @s player.cursor minecraft:apple run item modify entity @s player.cursor werewolf:other/quest/rot_apple

@@ -1,0 +1,6 @@
+# 処理を記述
+data modify storage werewolf: settings.text append value '{"text":"　 [シャッフラー]"}'
+execute if data storage werewolf: role.shuffler.skill_0{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　   切り裂く  :最大回数: "},{"text":"∞ 回 / 回復日数: "},{"nbt":"role.shuffler.skill_0.cooltime","storage":"werewolf:"},{"text":" 日"}]'
+execute unless data storage werewolf: role.shuffler.skill_0{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　   切り裂く  :最大回数: "},{"nbt":"role.shuffler.skill_0.limit","storage":"werewolf:"},{"text":" 回 / 回復日数: "},{"nbt":"role.shuffler.skill_0.cooltime","storage":"werewolf:"},{"text":" 日"}]'
+execute if data storage werewolf: role.shuffler.skill_2{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　   シャッフル:最大回数: "},{"text":"∞ 回 / 回復時間: "},{"nbt":"role.shuffler.skill_2.cooltime_second","storage":"werewolf:"},{"text":" 秒"}]'
+execute unless data storage werewolf: role.shuffler.skill_2{limit:999} run data modify storage werewolf: settings.text append value '[{"text":"　   シャッフル:最大回数: "},{"nbt":"role.shuffler.skill_2.limit","storage":"werewolf:"},{"text":" 回 / 回復時間: "},{"nbt":"role.shuffler.skill_2.cooltime_second","storage":"werewolf:"},{"text":" 秒"}]'

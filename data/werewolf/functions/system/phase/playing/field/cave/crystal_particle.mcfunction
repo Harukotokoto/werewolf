@@ -1,0 +1,2 @@
+particle minecraft:enchant ~ ~ ~ 0 0 0 0.3 1 force @a
+execute unless entity @e[tag=crystal_core,distance=..3] positioned ^ ^ ^0.5 rotated ~ ~ run function werewolf:system/phase/playing/field/cave/crystal_particle

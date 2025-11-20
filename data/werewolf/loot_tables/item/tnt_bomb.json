@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "手投げ爆弾(右クリックで使用)",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[アイテム説明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "投げるとすぐに爆発する",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "スニークしながら投擲で起爆までの時間が延びる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"tnt_bomb\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

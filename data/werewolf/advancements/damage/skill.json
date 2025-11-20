@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 0.001,
+            "max": 0.01
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "werewolf:skill",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "werewolf:system/damage/skill/"
+  }
+}

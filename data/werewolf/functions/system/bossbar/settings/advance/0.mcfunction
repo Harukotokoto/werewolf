@@ -1,0 +1,120 @@
+##全員の独自のbossbarを進行
+
+##表示を更新
+$bossbar set personal_$(reserve_0) name \
+[\
+    {"score":{"name": "@a[scores={ID=$(reserve_0)}]","objective":"bossbar_negative"},"font":"bossbar_adjustment_0"},\
+    {"interpret":true,"nbt":"settings.text[0]","storage":"werewolf:","font":"settings_0"},\ 
+    {"interpret":true,"nbt":"settings.text[0]","storage":"werewolf:","font":"game_stat_negative"},\
+    {"interpret":true,"nbt":"settings.text[1]","storage":"werewolf:","font":"settings_1"},\ 
+    {"interpret":true,"nbt":"settings.text[1]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[2]","storage":"werewolf:","font":"settings_2"},\ 
+    {"interpret":true,"nbt":"settings.text[2]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[3]","storage":"werewolf:","font":"settings_3"},\ 
+    {"interpret":true,"nbt":"settings.text[3]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[4]","storage":"werewolf:","font":"settings_4"},\ 
+    {"interpret":true,"nbt":"settings.text[4]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[5]","storage":"werewolf:","font":"settings_5"},\ 
+    {"interpret":true,"nbt":"settings.text[5]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[6]","storage":"werewolf:","font":"settings_6"},\ 
+    {"interpret":true,"nbt":"settings.text[6]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[7]","storage":"werewolf:","font":"settings_7"},\ 
+    {"interpret":true,"nbt":"settings.text[7]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[8]","storage":"werewolf:","font":"settings_8"},\ 
+    {"interpret":true,"nbt":"settings.text[8]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[9]","storage":"werewolf:","font":"settings_9"},\ 
+    {"interpret":true,"nbt":"settings.text[9]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[10]","storage":"werewolf:","font":"settings_10"},\ 
+    {"interpret":true,"nbt":"settings.text[10]","storage":"werewolf:","font":"game_stat_negative"},\  
+    {"interpret":true,"nbt":"settings.text[11]","storage":"werewolf:","font":"settings_11"},\ 
+    {"interpret":true,"nbt":"settings.text[11]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[12]","storage":"werewolf:","font":"settings_12"},\ 
+    {"interpret":true,"nbt":"settings.text[12]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[13]","storage":"werewolf:","font":"settings_13"},\ 
+    {"interpret":true,"nbt":"settings.text[13]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[14]","storage":"werewolf:","font":"settings_14"},\ 
+    {"interpret":true,"nbt":"settings.text[14]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[15]","storage":"werewolf:","font":"settings_15"},\ 
+    {"interpret":true,"nbt":"settings.text[15]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[16]","storage":"werewolf:","font":"settings_16"},\ 
+    {"interpret":true,"nbt":"settings.text[16]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[17]","storage":"werewolf:","font":"settings_17"},\ 
+    {"interpret":true,"nbt":"settings.text[17]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[18]","storage":"werewolf:","font":"settings_18"},\ 
+    {"interpret":true,"nbt":"settings.text[18]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[19]","storage":"werewolf:","font":"settings_19"},\ 
+    {"interpret":true,"nbt":"settings.text[19]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[20]","storage":"werewolf:","font":"settings_20"},\ 
+    {"interpret":true,"nbt":"settings.text[20]","storage":"werewolf:","font":"game_stat_negative"},\  
+    {"interpret":true,"nbt":"settings.text[21]","storage":"werewolf:","font":"settings_21"},\ 
+    {"interpret":true,"nbt":"settings.text[21]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[22]","storage":"werewolf:","font":"settings_22"},\ 
+    {"interpret":true,"nbt":"settings.text[22]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[23]","storage":"werewolf:","font":"settings_23"},\ 
+    {"interpret":true,"nbt":"settings.text[23]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[24]","storage":"werewolf:","font":"settings_24"},\ 
+    {"interpret":true,"nbt":"settings.text[24]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[25]","storage":"werewolf:","font":"settings_25"},\ 
+    {"interpret":true,"nbt":"settings.text[25]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[26]","storage":"werewolf:","font":"settings_26"},\ 
+    {"interpret":true,"nbt":"settings.text[26]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[27]","storage":"werewolf:","font":"settings_27"},\ 
+    {"interpret":true,"nbt":"settings.text[27]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[28]","storage":"werewolf:","font":"settings_28"},\ 
+    {"interpret":true,"nbt":"settings.text[28]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[29]","storage":"werewolf:","font":"settings_29"},\ 
+    {"interpret":true,"nbt":"settings.text[29]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[30]","storage":"werewolf:","font":"settings_30"},\ 
+    {"interpret":true,"nbt":"settings.text[30]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[31]","storage":"werewolf:","font":"settings_31"},\ 
+    {"interpret":true,"nbt":"settings.text[31]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[32]","storage":"werewolf:","font":"settings_32"},\ 
+    {"interpret":true,"nbt":"settings.text[32]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[33]","storage":"werewolf:","font":"settings_33"},\ 
+    {"interpret":true,"nbt":"settings.text[33]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[34]","storage":"werewolf:","font":"settings_34"},\ 
+    {"interpret":true,"nbt":"settings.text[34]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[35]","storage":"werewolf:","font":"settings_35"},\ 
+    {"interpret":true,"nbt":"settings.text[35]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[36]","storage":"werewolf:","font":"settings_36"},\ 
+    {"interpret":true,"nbt":"settings.text[36]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[37]","storage":"werewolf:","font":"settings_37"},\ 
+    {"interpret":true,"nbt":"settings.text[37]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[38]","storage":"werewolf:","font":"settings_38"},\ 
+    {"interpret":true,"nbt":"settings.text[38]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[39]","storage":"werewolf:","font":"settings_39"},\ 
+    {"interpret":true,"nbt":"settings.text[39]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[40]","storage":"werewolf:","font":"settings_40"},\ 
+    {"interpret":true,"nbt":"settings.text[40]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[41]","storage":"werewolf:","font":"settings_41"},\ 
+    {"interpret":true,"nbt":"settings.text[41]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[42]","storage":"werewolf:","font":"settings_42"},\ 
+    {"interpret":true,"nbt":"settings.text[42]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[43]","storage":"werewolf:","font":"settings_43"},\ 
+    {"interpret":true,"nbt":"settings.text[43]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[44]","storage":"werewolf:","font":"settings_44"},\ 
+    {"interpret":true,"nbt":"settings.text[44]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[45]","storage":"werewolf:","font":"settings_45"},\ 
+    {"interpret":true,"nbt":"settings.text[45]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[46]","storage":"werewolf:","font":"settings_46"},\ 
+    {"interpret":true,"nbt":"settings.text[46]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[47]","storage":"werewolf:","font":"settings_47"},\ 
+    {"interpret":true,"nbt":"settings.text[47]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[48]","storage":"werewolf:","font":"settings_48"},\ 
+    {"interpret":true,"nbt":"settings.text[48]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[49]","storage":"werewolf:","font":"settings_49"},\ 
+    {"interpret":true,"nbt":"settings.text[49]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"interpret":true,"nbt":"settings.text[50]","storage":"werewolf:","font":"settings_50"},\ 
+    {"interpret":true,"nbt":"settings.text[50]","storage":"werewolf:","font":"game_stat_negative"},\ 
+    {"score":{"name": "@a[scores={ID=$(reserve_0)}]","objective":"bossbar_negative"},"font":"bossbar_adjustment_1"}\
+    \
+]
+
+##再帰回数を減算
+execute store result storage macro: reserve_0 int 0.99999 run data get storage macro: reserve_0
+
+
+##中断処理
+execute if data storage macro: {reserve_0:0} run return fail
+##再帰処理
+function werewolf:system/bossbar/settings/advance/0 with storage macro:

@@ -1,0 +1,2 @@
+$execute at @e[tag=start_point,tag=$(field),sort=nearest,limit=1] as @e[type=#animated_java:root,tag=aj.fake_wall.root,sort=nearest,limit=1] run function animated_java:fake_wall/animations/open/play
+$execute at @e[tag=start_point,tag=$(field),sort=nearest,limit=1] at @e[type=#animated_java:root,tag=aj.fake_wall.root,sort=nearest,limit=1] run playsound slide_stone master @a
