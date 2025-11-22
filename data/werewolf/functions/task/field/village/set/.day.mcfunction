@@ -2,12 +2,12 @@
 function werewolf:task/reset
 
 ##タスク数設定
-tag @e[type=marker,tag=village,tag=task_point,tag=oak_log,sort=random,limit=15] add active_task
-tag @e[type=marker,tag=village,tag=task_point,tag=iron_ore,sort=random,limit=15] add active_task
-tag @e[type=marker,tag=village,tag=task_point,tag=wheat,sort=random,limit=15] add active_task
-tag @e[type=marker,tag=village,tag=task_point,tag=red_mushroom,sort=random,limit=15] add active_task
-tag @e[type=marker,tag=village,tag=task_point,tag=brown_mushroom,sort=random,limit=15] add active_task
-tag @e[type=marker,tag=village,tag=task_point,tag=treasure_chest,sort=random,limit=5] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=oak_log,sort=random,limit=20] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=iron_ore,sort=random,limit=25] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=wheat,sort=random,limit=20] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=red_mushroom,sort=random,limit=20] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=brown_mushroom,sort=random,limit=20] add active_task
+tag @e[type=marker,tag=village,tag=task_point,tag=treasure_chest,sort=random,limit=30] add active_task
 
 ##個別処理
 execute as @e[type=marker,tag=village,tag=task_point,tag=oak_log] at @s run function werewolf:task/field/village/set/oak_log
