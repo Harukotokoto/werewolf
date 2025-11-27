@@ -13,6 +13,9 @@ execute as @a[scores={right_click=1..}] if items entity @s weapon.mainhand *[min
 ##glowing_tool
 execute as @a[scores={right_click=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["glowing_tool"]}] run function werewolf:item/glowing_tool/run
 
+##cleanse_tool
+execute as @a[scores={right_click=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["cleanse_tool"]}] run function werewolf:item/cleanse_tool/run
+
 ##job_change_villager
 execute as @a[scores={right_click=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{Tags:["job_change_villager"]}] run function werewolf:item/job_change_villager/run
 
