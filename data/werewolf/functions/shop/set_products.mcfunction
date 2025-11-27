@@ -103,6 +103,11 @@ $execute as @e[type=wandering_trader,tag=shop] unless data storage werewolf: set
     buy:{id:"minecraft:emerald",count:$(glowing_tool)b},\
     sell:{components:{"minecraft:custom_data":{Tags:["glowing_tool"]},"minecraft:custom_model_data":1004,"minecraft:custom_name":'{"color":"white","italic":false,"text":"発光ツール(右クリックで使用)"}',"minecraft:enchantment_glint_override":0b,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1},show_in_tooltip:0b},"minecraft:lore":['{"color":"gray","italic":false,"text":"[アイテム説明]"}','{"color":"gray","italic":false,"text":"全員が10秒間光り輝く"}','{"color":"gray","italic":false,"text":"一度使うと消滅する"}']},count:1,id:"minecraft:carrot_on_a_stick"}\
 }
+#クレンズツール
+execute as @e[type=wandering_trader,tag=shop] run data modify entity @s[tag=shop_2] Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,xp:0,\
+    buy:{id:"minecraft:diamond",count:3b},buyB:{id:"minecraft:emerald",count:10b},\
+    sell:{components:{"minecraft:custom_data":{Tags:["cleanse_tool"]},"minecraft:custom_model_data":1010,"minecraft:custom_name":'{"color":"white","italic":false,"text":"クレンズ(右クリックで使用)"}',"minecraft:enchantment_glint_override":0b,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1},show_in_tooltip:0b},"minecraft:lore":['{"color":"gray","italic":false,"text":"[アイテム説明]"}','{"color":"gray","italic":false,"text":"全ユーザーの盲目・発光・透明化・俊敏"}','{"color":"gray","italic":false,"text":"毒・鈍化・再生・暗闇を解除する"}','{"color":"gray","italic":false,"text":"一度使うと消滅する"}']},count:1,id:"minecraft:carrot_on_a_stick"}\
+}
 
 ##ポーション
 #透明化のポーション
